@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLACKHOUR — Built After Midnight</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="demo-bar">DEMO STORE — concept preview · prices illustrative · no real payments</div>
+<header class="nav"><a href="#home" class="logo goth">Blackhour</a>
+<nav><a href="#shop">Shop</a><a href="#lookbook">Lookbook</a><a href="#about">About</a></nav>
+<button class="cart-btn" onclick="openCart()">Bag <span id="count">0</span></button></header>
+<main id="app"></main>
+<footer><div class="goth flogo">Blackhour</div><p>Built After Midnight · Accra, Ghana</p>
+<p><a href="https://www.snapchat.com/add/bhclothing.llc">Snapchat @bhclothing.llc</a> · Shipping · Returns · Contact</p><p class="small">© 2026 BLACKHOUR. Demo site concept.</p></footer>
+<aside id="drawer"><div class="dh"><b>Your Bag</b><button onclick="closeCart()">✕</button></div><div id="items"></div>
+<div class="tot"><span>Subtotal</span><b id="sub">GHS 0</b></div><button class="btn full" onclick="location.hash='checkout';closeCart()">Checkout</button></aside>
+<div id="scrim" onclick="closeCart()"></div>
+<script src="app.js"></script></body></html>
